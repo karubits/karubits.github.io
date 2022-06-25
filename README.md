@@ -19,6 +19,25 @@ In order to save your time, and to prevent you from missing some files when copy
 
 ## Prerequisites
 
+````shell
+sudo apt install ruby-full build-essential zlib1g-dev git
+````
+
+Bash setup
+````
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+````
+Then install jekyll
+````
+gem install jekyll bundler
+````
+The run bundle
+`bundle`
+
+
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
 
 ## Installation
